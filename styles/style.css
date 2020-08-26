@@ -3,7 +3,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #32788cff;
 }
 
 li, a, button {
@@ -19,6 +18,8 @@ header {
   justify-content: flex-end;
   align-items: center;
   padding: 10px 5%;
+  background-color: #32788cff;
+  opacity: 0.8;
 }
 header .logo {
   cursor: pointer;
@@ -53,6 +54,9 @@ header button:hover {
 }
 
 .first-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 576px;
   position: relative;
@@ -65,6 +69,9 @@ header button:hover {
 }
 
 .second-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 576px;
   position: relative;
@@ -77,6 +84,9 @@ header button:hover {
 }
 
 .third-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 576px;
   position: relative;
@@ -86,6 +96,46 @@ header button:hover {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-image: url("../imgs/country-wallpaper-1.jpg");
+}
+
+.middle-section {
+  width: 100%;
+  height: 30px;
+  background-color: #140600;
+}
+
+.square {
+  width: 30%;
+  height: 100px;
+  background-color: #140600;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #140600;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5%;
+  background-color: #32788cff;
+  opacity: 0.8;
+}
+footer .copyright {
+  color: #9ad8eaff;
+}
+footer .logo {
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
